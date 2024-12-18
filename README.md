@@ -4,6 +4,12 @@
 
 The HR Leave Checking Application is a Streamlit-based chatbot app designed to simplify employee interactions regarding leave balance and leave requests. It integrates with Google Vertex AI and uses LangChain to handle user queries through a function-calling mechanism. The app also includes a secure login process using Azure AD authentication.
 
+See more details in the blogs written in Thai language:
+
+[HR APP with Streamlit + Cloud Run + Gemini + Cloud SQL with authentication through Azure AD](https://medium.com/google-cloud-thailand/hr-app-เช็ควันลาแบบลูกทุ่งจานด่วนโดยใช้-streamlit-ผ่าน-cloud-run-gemini-cloud-sql-และทำ-2fbce13ab119)
+
+[HR APP part 2 with Langchain](https://medium.com/@disruptednetwork/hr-app-%E0%B9%80%E0%B8%8A%E0%B9%87%E0%B8%84%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A5%E0%B8%B2%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%84-2-langchain-3f800cfc2ab0)
+
 ## Features
 
 - **Leave Balance Inquiry**: Retrieve detailed leave balance information for the authenticated user.
@@ -77,7 +83,7 @@ Set the following environment variables in your system:
    ```
 
 ### Deploying to Google Cloud Run
-The service can be deployed on Google Cloud Run. Detailed deployment steps and configurations will be outlined in the blog (link to be provided later).
+The service can be deployed on Google Cloud Run. Detailed deployment steps and configurations are outlined in this [blog](https://medium.com/google-cloud-thailand/hr-app-เช็ควันลาแบบลูกทุ่งจานด่วนโดยใช้-streamlit-ผ่าน-cloud-run-gemini-cloud-sql-และทำ-2fbce13ab119).
 
 ## Usage
 
